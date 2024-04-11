@@ -20,12 +20,13 @@ header{
     align-items: center;
     padding: 0.5rem 10rem;
     font-size: 0.5rem;
+    z-index: 2;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 ul>li{
@@ -54,6 +55,7 @@ main{
 
 .product{
     width: 30%;
+    position: relative;
 }
 
 .product img{
@@ -91,4 +93,34 @@ span.discounted-price{
     line-height: 0.65rem;
     color: red;
     font-weight: bold;
+}
+
+div.favourite{
+    background-color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 5px;
+    left:243px;
+    padding: 0 0.65rem;
+}
+
+div.more-info{
+    position: absolute; 
+    bottom: 70px;
+    font-size: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+div.discount, div.eco{   
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+}
+
+div.discount{    
+    background-color: red;    
+}
+
+div.eco{
+    background-color: green;
 }
