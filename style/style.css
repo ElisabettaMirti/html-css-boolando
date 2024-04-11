@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ff6900;
+    color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 10rem;
+    font-size: 0.5rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-weight: 600;
+}
+
+ul>li{
+    margin-right: 0.5rem;
+}
+
+.profile>i{
+    margin-left: 0.5rem;
+}
+
+div.logo-img>img{
+    height: 20px;
+}
