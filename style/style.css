@@ -65,3 +65,30 @@ main{
 .img-hover{
     display: none;
 }
+
+p.brand{
+    font-size: 0.6rem;
+    line-height: 0.65rem;
+}
+
+p.product-name{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+p.price{
+    line-height: 0.6rem;
+}
+
+span.old-price{
+    font-size: 0.6rem;
+    line-height: 0.65rem;
+    text-decoration: line-through;
+}
+
+span.discounted-price{
+    font-size: 0.6rem;
+    line-height: 0.65rem;
+    color: red;
+    font-weight: bold;
+}
