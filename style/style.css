@@ -44,29 +44,35 @@ div.logo-img>img{
 
 /* MAIN */
 
-main{
+.articles-container{
     padding: 4rem 10rem 1rem;
-}
-
-.row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
-.product{
-    width: 30%;
+.article{   
+    display: block;
     position: relative;
+    width: calc((100% / 3) - 0.5rem);
 }
 
-.product img{
-    object-fit: contain;
-    object-position: center;
-    height: 400px;
+.img-product>img{    
+    width: 100%;    
 }
 
-.img-hover{
+.img-product .img-main,
+.img-product:hover .img-hover{
+    display: inline-block;
+}
+
+.img-product .img-hover,
+.img-product:hover .img-main{
     display: none;
 }
+
+
 
 p.brand{
     font-size: 0.6rem;
@@ -100,21 +106,21 @@ div.favourite{
     font-size: 1.4rem;
     position: absolute;
     top: 5px;
-    left:243px;
+    right: 0;
     padding: 0 0.65rem;
 }
 
 div.more-info{
     position: absolute; 
     bottom: 70px;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     color: white;
     font-weight: bold;
 }
 
 div.discount, div.eco{   
     display: inline-block;
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem 0.3rem;
 }
 
 div.discount{    
